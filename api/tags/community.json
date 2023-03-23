@@ -3,7 +3,6 @@
   "videos": {
     "community/welcome": {
       "description": "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>.",
-      "faq": null,
       "materials": [
         {
           "external": true,
@@ -102,12 +101,11 @@
           "type": "GTN Twitter"
         }
       ],
-      "title": "Meet & Join the Galaxy Community!",
       "tags": [
-        "community",
         "community"
       ],
-      "type": null,
+      "title": "Meet & Join the Galaxy Community!",
+      "type": "Welcome",
       "versions": [
         {
           "captions": [
@@ -121,7 +119,9 @@
             "galaxycommunity"
           ]
         }
-      ]
+      ],
+      "gtn_id": "community/welcome",
+      "captioned": true
     }
   }
 }

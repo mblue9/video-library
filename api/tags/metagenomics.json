@@ -2,15 +2,14 @@
   "url": "/video-library/api/tags/metagenomics.json",
   "videos": {
     "metagenomics/clinical-applications": {
-      "title": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
       "description": "Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
       "materials": [
 
       ],
       "tags": [
         "metagenomics"
       ],
+      "title": "Nanopore Whole Bacterial Genome Sequencing in a Clinical Setting",
       "type": "Lecture",
       "versions": [
         {
@@ -25,11 +24,12 @@
             "aheikema"
           ]
         }
-      ]
+      ],
+      "gtn_id": "metagenomics/clinical-applications",
+      "captioned": true
     },
     "metagenomics/introduction/slides": {
       "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub",
       "materials": [
         {
           "link": "topics/metagenomics/slides/introduction.html",
@@ -54,11 +54,13 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "metagenomics/introduction",
+      "title": "Introduction to metagenomics",
+      "captioned": true
     },
     "metagenomics/metatranscriptomics": {
       "description": "Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRS1OnbS9qH6C7-p0NDoF9bQEyW8ICrqTEIrb55X9dVzMmu5_46FUx2uD0XHGLBQvqsZU66MP7_9seV/pub",
       "materials": [
         {
           "external": true,
@@ -96,11 +98,13 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "metagenomics/metatranscriptomics",
+      "title": "Metatranscriptomics analysis using microbiome RNA-seq data",
+      "captioned": true
     },
     "metagenomics/mothur-miseq-sop-short/tutorial": {
       "description": "This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub",
       "materials": [
         {
           "link": "topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html",
@@ -124,11 +128,13 @@
             "shiltemann"
           ]
         }
-      ]
+      ],
+      "gtn_id": "metagenomics/mothur-miseq-sop-short",
+      "title": "16S Microbial Analysis with mothur (short)",
+      "captioned": true
     },
     "metagenomics/plasmid-metagenomics-nanopore/tutorial": {
       "description": "This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub",
       "materials": [
         {
           "link": "topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html",
@@ -158,7 +164,10 @@
             "willemdek11"
           ]
         }
-      ]
+      ],
+      "gtn_id": "metagenomics/plasmid-metagenomics-nanopore",
+      "title": "Antibiotic resistance detection",
+      "captioned": true
     }
   }
 }

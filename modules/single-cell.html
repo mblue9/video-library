@@ -39,9 +39,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        <!--
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/">Home</a>
         </li>
+        -->
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/events">Events</a>
         </li>
@@ -51,11 +53,16 @@
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/library">Videos</a>
         </li>
+        <!--
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/session-library">Sessions</a>
         </li>
-               <li class="nav-item">
+        -->
+        <li class="nav-item">
 			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
         </li>
 
         <li class="nav-item">
@@ -98,7 +105,9 @@
 
   
   
+  
   <h3 class="module-start">  </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionintro">
@@ -142,7 +151,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           
           
-          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["transcriptomics/scrna-intro/slides", "transcriptomics/scrna-seq-basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
+          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["single-cell/scrna-intro/slides", "single-cell/scrna-case_basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["mtekman"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"D3qvYWZMFa0", "speakers"=>["awspolly"], "name"=>"An introduction to scRNA-seq data analysis"} -->
+
 
 
 
@@ -175,7 +185,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.</td>
+              <td><p>Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.</p>
+</td>
           </tr>
           
           <tr>
@@ -196,23 +207,29 @@ of transcriptomic research, used in high-throughput developmental studies
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-intro/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-intro/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/scrna-intro/slides-plain.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-intro/slides-plain.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -220,15 +237,14 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-intro">#transcriptomics_scrna-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-intro">#single-cell_scrna-intro</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -253,11 +269,15 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
   
-  Go to the <a href="/video-library/videos/transcriptomics/scrna-intro/slides">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-intro/slides">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -279,14 +299,18 @@ of transcriptomic research, used in high-throughput developmental studies
     
     
 		<div class="hall-of-fame-hero" id="awspolly">
+			
 			<a href="/video-library/contributors/awspolly/">
+			
             
             <img src="/video-library/assets/images/instructors/polly.png" alt="">
             
 			<div class="name">
 				<b>These slides are narrated by AWS Polly.</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 			</div>
@@ -307,7 +331,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           
           
-          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["transcriptomics/scrna-intro/slides", "transcriptomics/scrna-seq-basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+          <!-- session: {"title"=>"Introduction to Single-Cell RNA-seq Data Analysis", "description"=>"Single-cell RNA-seq analysis is a rapidly evolving field at the forefront\nof transcriptomic research, used in high-throughput developmental studies\n", "videos"=>["single-cell/scrna-intro/slides", "single-cell/scrna-case_basic-pipeline/tutorial"]}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+
 
 
 
@@ -340,7 +365,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</td>
+              <td><p>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</p>
+</td>
           </tr>
           
           <tr>
@@ -361,23 +387,35 @@ of transcriptomic research, used in high-throughput developmental studies
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_basic-pipeline/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -385,15 +423,14 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_basic-pipeline">#single-cell_scrna-case_basic-pipeline</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -420,11 +457,28 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_basic-pipeline">#single-cell_scrna-case_basic-pipeline</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
   
-  Go to the <a href="/video-library/videos/transcriptomics/scrna-seq-basic-pipeline/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_basic-pipeline/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -446,14 +500,18 @@ of transcriptomic research, used in high-throughput developmental studies
     
     
 		<div class="hall-of-fame-hero" id="nomadscientist">
+			
 			<a href="/video-library/contributors/nomadscientist/">
+			
             
 			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
             
 			<div class="name">
 				<b>Wendi Bacon</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.ebi.ac.uk/">
@@ -474,7 +532,7 @@ of transcriptomic research, used in high-throughput developmental studies
 
 
         
-        Go to <a href="/video-library/sessions/transcriptomics/scrna-intro/">session page</a>.
+        Go to <a href="/video-library/sessions/single-cell/scrna-intro/">session page</a>.
       
 
 
@@ -527,7 +585,8 @@ of transcriptomic research, used in high-throughput developmental studies
       
         
            
-           <!-- session: {"title"=>"Understanding Barcodes", "description"=>"This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub", "materials"=>[{"type"=>"Tutorial", "link"=>"topics/transcriptomics/tutorials/scrna-umis/tutorial.html"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"link"=>"AJ17BicjmYU", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"10M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Understanding Barcodes"}], "name"=>"Understanding Barcodes"}<br><br> video: {"link"=>"AJ17BicjmYU", "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"10M", "captions"=>["khanteymoori"], "speakers"=>["nomadscientist"], "name"=>"Understanding Barcodes"} -->
+           <!-- session: {"description"=>"This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.", "materials"=>[{"link"=>"topics/single-cell/tutorials/scrna-umis/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "title"=>"Understanding Barcodes", "type"=>"Demo", "versions"=>[{"captions"=>["khanteymoori"], "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"AJ17BicjmYU", "speakers"=>["nomadscientist"], "name"=>"Understanding Barcodes"}], "gtn_id"=>"single-cell/scrna-umis", "captioned"=>true, "name"=>"Understanding Barcodes"}<br><br> video: {"captions"=>["khanteymoori"], "date"=>"2021-03-18", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"AJ17BicjmYU", "speakers"=>["nomadscientist"], "name"=>"Understanding Barcodes"} -->
+
 
 
 
@@ -560,7 +619,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.</td>
+              <td><p>This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.</p>
+</td>
           </tr>
           
           <tr>
@@ -581,23 +641,35 @@ of transcriptomic research, used in high-throughput developmental studies
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-04-01/topics/transcriptomics/tutorials/scrna-umis/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-umis/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-04-01/topics/single-cell/tutorials/scrna-umis/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-umis/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-umis/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -605,15 +677,14 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-umis">#transcriptomics_scrna-umis</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-umis">#single-cell_scrna-umis</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -634,11 +705,28 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-umis">#single-cell_scrna-umis</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
   
-  Go to the <a href="/video-library/videos/transcriptomics/scrna-umis/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-umis/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -660,14 +748,18 @@ of transcriptomic research, used in high-throughput developmental studies
     
     
 		<div class="hall-of-fame-hero" id="nomadscientist">
+			
 			<a href="/video-library/contributors/nomadscientist/">
+			
             
 			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
             
 			<div class="name">
 				<b>Wendi Bacon</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.ebi.ac.uk/">
@@ -741,7 +833,8 @@ of transcriptomic research, used in high-throughput developmental studies
       
         
            
-           <!-- session: {"description"=>"This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vT2mDOrH9L8oky-MG26vKjnRmV1zGNZd3vsOGFUjL-lhpBQi95vSYKgWYyqgTEPC4wz8LjGvTgfBi1Z/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"3ytm2AU6QUc", "speakers"=>["nomadscientist"], "name"=>"Generating a single cell matrix using Alevin"}], "name"=>"Generating a single cell matrix using Alevin"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"3ytm2AU6QUc", "speakers"=>["nomadscientist"], "name"=>"Generating a single cell matrix using Alevin"} -->
+           <!-- session: {"description"=>"This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.", "materials"=>[{"link"=>"topics/single-cell/tutorials/scrna-case_alevin/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"3ytm2AU6QUc", "speakers"=>["nomadscientist"], "name"=>"Generating a single cell matrix using Alevin"}], "gtn_id"=>"single-cell/scrna-case_alevin", "title"=>"Generating a single cell matrix using Alevin", "captioned"=>true, "name"=>"Generating a single cell matrix using Alevin"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"3ytm2AU6QUc", "speakers"=>["nomadscientist"], "name"=>"Generating a single cell matrix using Alevin"} -->
+
 
 
 
@@ -774,7 +867,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.</td>
+              <td><p>This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.</p>
+</td>
           </tr>
           
           <tr>
@@ -795,23 +889,35 @@ of transcriptomic research, used in high-throughput developmental studies
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/scrna-case_alevin/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_alevin/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_alevin/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -819,15 +925,14 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_droplet-quantification-preprocessing">#transcriptomics_droplet-quantification-preprocessing</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_alevin">#single-cell_scrna-case_alevin</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -840,9 +945,7 @@ of transcriptomic research, used in high-throughput developmental studies
               <td>
                   <ul>
                       
-                      <li>Repeat matrix generation for any droplet-based single cell sequencing data</li>
-                      
-                      <li>Apply data combination and metadata editing for particular experimental designs</li>
+                      <li>Generate a cellxgene matrix for droplet-based single cell sequencing data</li>
                       
                       <li>Interpret quality control (QC) plots to make informed decisions on cell thresholds</li>
                       
@@ -852,11 +955,28 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_alevin">#single-cell_scrna-case_alevin</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
   
-  Go to the <a href="/video-library/videos/transcriptomics/droplet-quantification-preprocessing/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_alevin/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -878,14 +998,18 @@ of transcriptomic research, used in high-throughput developmental studies
     
     
 		<div class="hall-of-fame-hero" id="nomadscientist">
+			
 			<a href="/video-library/contributors/nomadscientist/">
+			
             
 			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
             
 			<div class="name">
 				<b>Wendi Bacon</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.ebi.ac.uk/">
@@ -959,7 +1083,8 @@ of transcriptomic research, used in high-throughput developmental studies
       
         
            
-           <!-- session: {"description"=>"You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+           <!-- session: {"description"=>"You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!", "materials"=>[{"link"=>"topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Demo", "versions"=>[{"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}], "gtn_id"=>"single-cell/scrna-case_basic-pipeline", "title"=>"Filter, Plot and Explore Single-cell RNA-seq Data", "captioned"=>true, "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"}<br><br> video: {"captions"=>["nomadscientist"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"M6iepSJh0EQ", "speakers"=>["nomadscientist"], "name"=>"Filter, Plot and Explore Single-cell RNA-seq Data"} -->
+
 
 
 
@@ -992,7 +1117,8 @@ of transcriptomic research, used in high-throughput developmental studies
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</td>
+              <td><p>You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!</p>
+</td>
           </tr>
           
           <tr>
@@ -1013,23 +1139,35 @@ of transcriptomic research, used in high-throughput developmental studies
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_basic-pipeline/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/scrna-case_basic-pipeline/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -1037,15 +1175,14 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_scrna-seq-basic-pipeline">#transcriptomics_scrna-seq-basic-pipeline</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_basic-pipeline">#single-cell_scrna-case_basic-pipeline</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1072,11 +1209,28 @@ of transcriptomic research, used in high-throughput developmental studies
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_scrna-case_basic-pipeline">#single-cell_scrna-case_basic-pipeline</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
   
-  Go to the <a href="/video-library/videos/transcriptomics/scrna-seq-basic-pipeline/tutorial">video page</a> to see all versions.
+  Go to the <a href="/video-library/videos/single-cell/scrna-case_basic-pipeline/tutorial">video page</a> to see all versions.
   
  </div>
  <!-- speaker(s) -->
@@ -1098,14 +1252,276 @@ of transcriptomic research, used in high-throughput developmental studies
     
     
 		<div class="hall-of-fame-hero" id="nomadscientist">
+			
 			<a href="/video-library/contributors/nomadscientist/">
+			
             
 			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
             
 			<div class="name">
 				<b>Wendi Bacon</b>
 			</div>
+			
 			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.ebi.ac.uk/">
+					EMBL-EBI
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingintro4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseintro4" aria-expanded="false" aria-controls="collapseintro4">
+        Bulk RNA Deconvolution with MuSiC
+        
+   </button>
+  </div>
+
+  <div id="collapseintro4" class="accordion-collapse collapse " aria-labelledby="headingintro4" data-bs-parent="#accordionintro">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>"Bulk RNA-seq data contains a mixture of transcript signatures from\nseveral types of cells. We wish to deconvolve this mixture to obtain\nestimates of the proportions of cell types within the bulk sample. To\ndo this, we can use single cell RNA-seq data as a reference for\nestimating the cell type proportions within the bulk data.\n\nIn this tutorial, we will use bulk and single-cell RNA-seq data, including\nmatrices of similar tissues from different sources, to illustrate how to infer\ncell type abundances from bulk RNA-seq.\n", "materials"=>[{"link"=>"topics/single-cell/tutorials/bulk-music/tutorial.html", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "single-cell"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"}], "gtn_id"=>"single-cell/bulk-music", "title"=>"Bulk RNA Deconvolution with MuSiC", "captioned"=>true, "name"=>"Bulk RNA Deconvolution with MuSiC"}<br><br> video: {"captions"=>["mtekman", "nomadscientist"], "date"=>"2021-03-08", "galaxy_version"=>"21.09", "length"=>"20M", "link"=>"nfAUXP3W-jM", "speakers"=>["nomadscientist"], "name"=>"Bulk RNA Deconvolution with MuSiC"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/nfAUXP3W-jM"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>Bulk RNA-seq data contains a mixture of transcript signatures from
+several types of cells. We wish to deconvolve this mixture to obtain
+estimates of the proportions of cell types within the bulk sample. To
+do this, we can use single cell RNA-seq data as a reference for
+estimating the cell type proportions within the bulk data.</p>
+
+<p>In this tutorial, we will use bulk and single-cell RNA-seq data, including
+matrices of similar tissues from different sources, to illustrate how to infer
+cell type abundances from bulk RNA-seq.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mtekman/">Mehmet Tekman</a>,  <a href="/video-library/contributors/nomadscientist/">Wendi Bacon</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>8 March 2021</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2021-04-01/topics/single-cell/tutorials/bulk-music/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/bulk-music/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/single-cell/tutorials/bulk-music/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_bulk-music">#single-cell_bulk-music</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Construct Bulk and scRNA Expression Set Objects</li>
+                      
+                      <li>Inspect these objects for various properties</li>
+                      
+                      <li>Measure the abundance of certain cell type cluster markers compared to others</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/single-cell_bulk-music">#single-cell_bulk-music</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/single-cell/bulk-music/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="nomadscientist">
+			
+			<a href="/video-library/contributors/nomadscientist/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/nomadscientist" alt="">
+            
+			<div class="name">
+				<b>Wendi Bacon</b>
+			</div>
+			
+			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.ebi.ac.uk/">
@@ -1147,6 +1563,7 @@ of transcriptomic research, used in high-throughput developmental studies
      
   
   </div>
+
 
 
 

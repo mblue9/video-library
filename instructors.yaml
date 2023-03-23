@@ -1,6 +1,7 @@
 abretaud:
     name: Anthony Bretaudeau
-    affiliation: [inrae]
+    affiliation: [inrae, gallantries]
+    slack: U01FVTD0L1H
 
 afgane:
     name: Enis Afgan
@@ -10,15 +11,35 @@ aheikema:
     name: Astrid Heikema
     affiliation: [erasmusmc]
     photo: astrid.jpeg
+    
+ahl27:
+    name: Aidan Lakshman
+    affiliation: [univpittsburgh]
+    photo: AidanLakshman.jpeg
 
 ales-ibt:
     name: Alejandra Escobar-Zepeda
     affiliation: [ebi]
 
+andreacabibbe:
+    name: Andrea Cabibbe
+    affiliation: [irccs]
+    photo: Andrea_Cabibbe.jpg
+
+andreaspitaleri:
+    name: Andrea Spitaleri
+    affiliation: [irccs, uni-san-raffaele]
+    photo: spitaleri_andrea.jpg
+
 andrewr:
     name: Andrew Rajczewski
     affiliation: [minnesotauni]
     photo: andrew_r.jpg
+
+annalenaguske:
+    name: Anna-Lena Guske
+    affiliation: [linq]
+    photo: AnnaLena.jfif
 
 annasyme:
     name: Anna Syme
@@ -31,6 +52,11 @@ annefou:
 anuprulez:
     name: Anup Kumar
     affiliation: [freiburguni]
+
+arashghodousi:
+    name: Arash Ghodousi
+    affiliation: [irccs,uni-san-raffaele]
+    photo: arash.jpeg
 
 assuntad23:
     name: Assunta DeSanto
@@ -58,7 +84,8 @@ beatrizserrano:
 
 bebatut:
     name: Bérénice Batut
-    affiliation: [freiburguni]
+    affiliation: [freiburguni, gallantries]
+    slack: U01FVR92F37
 
 bernt-matthias:
     name: Matthias Bernt
@@ -71,6 +98,19 @@ bgruening:
 blankenberg:
     name: Daniel Blankenberg
     affiliation: [clevelandclinic]
+
+breakthewall:
+    name: Joan Hérisson
+    email: joan.herisson@univ-evry.fr
+    orcid: 0000-0001-9741-0847
+    gitter: breakthewall
+    linkedin: joanherisson
+    affiliation: [uni-evry, inrae, cnrs, cea]
+
+carolinestohr:
+    name: Caroline Stöhr
+    photo: Caroline.jpg
+    affiliation: [linq]
 
 cat-bro:
     name: Catherine Bromhead
@@ -86,11 +126,21 @@ christinecucinotta:
 
 colineroyaux:
     name: Coline Royaux
-    affiliation: [cnrs]
+    affiliation: [cnrs, gallantries]
 
 combesf:
     name: Florence Combes
     affiliation: [ifb]
+
+cstritt:
+    name: Christoph Stritt
+    affiliation: [swiss-tph]
+
+dbrites:
+    name: Daniela Brites
+    email: d.brites@swisstph.ch
+    affiliation: [swiss-tph]
+    photo: daniela_brites.jpeg
 
 dannon:
     name: Dannon Baker
@@ -110,10 +160,16 @@ dieterbulach:
 delphine-l:
     name: Delphine Lariviere
     affiliation: [pennstate]
+    slack: U01K7HXGDFW
 
 eancelet:
     name: Estelle Ancelet
     affiliation: [inrae]
+
+embl-ebi:
+  name: EMBL-EBI
+  affiliation: [ebi]
+  photo: embl-ebi.png
 
 emmaleith:
     name: Emma Leith
@@ -121,11 +177,16 @@ emmaleith:
 
 EngyNasr:
     name: Engy Nasr
-    affiliation: [freiburguni]
+    affiliation: [freiburguni, gallantries]
 
 ennovytje:
     name: Yvonne Hiltemann
     affiliation: [barharbourinn]
+
+federicodimarco:
+    name: Federico DiMarco
+    affiliation: [irccs]
+    photo: Federico.jpg
 
 FilipposZ:
    name: Filippos Zacharopoulos
@@ -137,6 +198,7 @@ foellmelanie:
 fpsom:
     name: Fotis E. Psomopoulos
     affiliation: [inab-certh]
+    slack: U01ENTS179V
 
 fubar2:
     name: Ross Lazarus
@@ -144,6 +206,10 @@ fubar2:
 gallardoalba:
     name: Cristóbal Gallardo
     affiliation: [freiburguni]
+
+GaloGS:
+    name: Galo Adrián Goig
+    affiliation: [swiss-tph]
 
 gmauro:
     name: Gianmauro Cuccuru
@@ -153,14 +219,19 @@ galaxycommunity:
     name: The Global Galaxy Community
     photo: community.png
 
+gtn:
+    name: The Galaxy Training Network
+    photo: gtn.png
+
 heylf:
     name: Florian Heyl
     affiliation: [freiburguni]
 
 hexylena:
     name: Helena Rasche
-    affiliation: [erasmusmc, avans]
+    affiliation: [erasmusmc, avans, gallantries]
     email: helena.rasche@gmail.com
+    slack: U01F7TAQXNG
 
 hrhotz:
     name: Hans-Rudolf Hotz
@@ -178,6 +249,9 @@ jj-umn:
     name: James Johnson
     affiliation: [minnesotauni]
 
+kenza12:
+    name: Kenza Bazi-Kabbaj
+
 khanteymoori:
     name: Alireza Khanteymoori
     affiliation: [freiburguni]
@@ -185,6 +259,7 @@ khanteymoori:
 kxk302:
     name: Kaivan Kamali
     affiliation: [pennstate]
+    slack: U01N51L1NRJ
 
 kmurat1:
     name: Katarzyna Kamieniecka
@@ -197,6 +272,11 @@ kpoterlowicz:
 ksuderman:
     name: Keith Suderman
     affiliation: [johnshopkins]
+
+liliana-rutaihwa:
+    name: Liliana Rutaihwa
+    affiliation: [find]
+    photo: liliana_r.jpeg
 
 lldelisle:
     name: Lucille Delisle
@@ -282,8 +362,9 @@ rwinand:
 
 shiltemann:
     name: Saskia Hiltemann
-    affiliation: [erasmusmc]
+    affiliation: [erasmusmc, gallantries]
     email: saskiahiltemann@gmail.com
+    slack: U01EDBVM04W
 
 simonbray:
     name: Simon Bray
@@ -308,6 +389,11 @@ tklingstrom:
     name: Tomas Klingström
     affiliation: [slu]
 
+thecarpentries:
+    name: The Carpentries
+    affiliation: [carpentries]
+    photo: carpentries.svg
+
 tnabtaf:
     name: Dave Clements
     affiliation: [johnshopkins]
@@ -318,15 +404,12 @@ willemdek11:
 
 yvanlebras:
     name: Yvan Le Bras
-    affiliation: [mnhn]
+    affiliation: [mnhn, gallantries]
+    slack: U01N3MS3LSF
 
 yvesvdb:
     name: Yves Vandenbrouck
     affiliation: [ifb]
-
-ic4f:
-    name: Sergey Golitsynskiy
-    affiliation: [johnshopkins]
 
 npalopoli:
     name: Nicolás Palopoli
@@ -344,19 +427,19 @@ wm75:
 
 jrr-cpt:
     name: Jolene Ramsey
-    affiliation: tamu
+    affiliation: [tamu]
 
 Lgallegovillar:
     name: Lorena Gallego Villar
-    affiliation: UnikFreiberg
+    affiliation: [freiburguni]
 
 mtbernardi:
   name: María Bernardi
-  affiliation: uba
+  affiliation: [uba]
 
 pcm32:
   name: Pablo Moreno
-  affiliation: ebi
+  affiliation: [ebi]
 
 montserrat-ve-go:
   name: Montserrat Ve Go
@@ -366,4 +449,32 @@ vinicius:
 
 stefydreptate:
     name: Stefana Dreptate
-    affiliation: ou
+    affiliation: [ou]
+
+onorvez:
+    name: Olivier Norvez
+    affiliation: [mnhn]
+
+pranavathiyani:
+    name: Pranavathiyani G
+    affiliation: [pu]
+
+babitasingh:
+    name: Babita Singh
+    affiliation: []
+
+sergeipond:
+    name: Sergei Pond
+    affiliation: []
+
+miguelroncoroni:
+    name: Miguel Roncoroni
+    affiliation: []
+
+jdavcs:
+    name: John Davis
+    affiliation: [johnshopkins]
+
+stain:
+    name: Stian Soiland-Reyes
+    affiliation: [by-covid]

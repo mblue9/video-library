@@ -1,0 +1,35 @@
+{
+  "url": "/video-library/api/tags/python.json",
+  "videos": {
+    "ro-crates/python/tutorial": {
+      "description": null,
+      "materials": [
+        {
+          "link": "https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate"
+        }
+      ],
+      "tags": [
+        "ro-crate",
+        "python"
+      ],
+      "title": "RO-Crate in Python",
+      "type": "Tutorial",
+      "versions": [
+        {
+          "captions": [
+            "stain"
+          ],
+          "date": "2023-03-03",
+          "length": "20M",
+          "link": "dQw4w9WgXcQ",
+          "speakers": [
+            "stain"
+          ]
+        }
+      ],
+      "support_channel": "ro-crate",
+      "gtn_id": "ro-crates/python",
+      "captioned": true
+    }
+  }
+}

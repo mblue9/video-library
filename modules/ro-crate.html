@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  
+  <title>FAIR data and provenance with RO-Crate and Galaxy</title>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head profile="http://www.w3.org/2005/10/profile">
+  <link href="/video-library/assets/bootstrap-5.0.0-beta1.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/video-library/assets/images/favicon.png" />
+  <script src="/video-library/assets/js/bootstrap-5.0.0-beta1.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script async defer data-domain="gallantries.github.io" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+  <script src="/video-library/assets/js/lazysizes-5.2.2.min.js" async></script>
+  <!--
+	  we've replaced with the individual icons because we don't need that many icons.
+  <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+  -->
+  <link rel="stylesheet" href="/video-library/assets/main.css">
+
+  <!-- updates for previews on social media etc -->
+  <meta name="description" content="" />
+  <meta property="og:title" content="FAIR data and provenance with RO-Crate and Galaxy" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="/video-library/assets/images/video_cover.png" />
+
+</head>
+<body>
+	<a class="visually-hidden visually-hidden-focusable" href="#content">Skip to main content</a><nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid" style="width: calc(1000px - (30px * 2)); padding-left:30px">
+    <a class="navbar-brand"
+        
+             href="/video-library/">GTN Video Library
+        
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/">Home</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/events">Events</a>
+        </li>
+         <li class="nav-item">
+			<a class="nav-link" href="/video-library/modules">Training Modules</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/library">Videos</a>
+        </li>
+        <!--
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/session-library">Sessions</a>
+        </li>
+        -->
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
+        </li>
+
+        <li class="nav-item">
+			<a class="nav-link" href="https://github.com/gallantries/video-library" title="Github Repository"><img style="height: 1em" src="/video-library/assets/fa/github.svg" alt="assets/fa/github.svg" aria-hidden="true"/></a>
+        </li>
+
+	    <!-- Want to add more pages to the top menu bar? add them here.
+        <li class="nav-item">
+           <a class="nav-link " href="for-instructors.html">Instructors</a>
+        </li>
+        -->
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="recording.html">recording</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="page-content" aria-label="Content" id="content">
+      <div class="wrapper" >
+        
+
+<h1>Module: FAIR data and provenance with RO-Crate and Galaxy </h1>
+
+
+
+
+<p>
+<p><a href="https://w3id.org/ro/crate">RO-Crate</a> is a community effort to practically achieve FAIR packaging of <a href="https://doi.org/10.1016/j.websem.2015.01.003">research objects</a> (digital objects like data, methods, software) with structured metadata. RO-Crate uses well-established Web standards and FAIR principles.</p>
+
+<p>For its metadata representations, RO-Crate builds on <a href="https://schema.org/">schema.org</a>, a mature vocabulary understood by search engines including Google Dataset Search. RO-Crate is adopted by many EU/EOSC projects as a pragmatic implementation of the FAIR Digital Objects vision.</p>
+
+<p>Galaxy has recently added RO-Crate support as a way to preserve a workflow and its execution history. RO-Crate is also used to deposit Galaxy workflows in the <a href="https://workflowhub.eu/">WorkflowHub registry</a> from resources such as the <a href="https://github.com/galaxyproject/iwc/">Intergalactic Workflow Commission</a>.</p>
+
+<p>In this module you will learn about RO-Crate as a concept and technology for FAIR data packaging, with hands-on exercises for making and publishing a crate manually, programmatically, and using Galaxy.</p>
+
+<p>Additional sessions will teach how to capture provenance of any workflow execution, how to follow best practices for publishing Galaxy workflows in WorkflowHub, and how to submit workflows to the <a href="https://www.lifemonitor.eu/">LifeMonitor</a> testing framework.</p>
+
+<p>This module is created in collaboration with <a href="https://elixir-europe.org/">ELIXIR</a>, <a href="https://by-covid.eu/">BY-COVID</a>, <a href="https://www.eosc-life.eu/">EOSC-Life</a>, <a href="https://fair-impact.eu/">FAIR-IMPACT</a> and <a href="http://eurosciencegateway.eu/">EuroScienceGateway</a>.</p>
+
+
+</p>
+
+
+<!-- This will generate the course handbook; the collapsible sections with videos and all others resources for the training -->
+
+
+
+
+  
+  
+  
+  <h3 class="module-start"> This module is currently under development, content will appear here as it is completed </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionintro">
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Building RO-Crates </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionbuilding">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingbuilding0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebuilding0" aria-expanded="false" aria-controls="collapsebuilding0">
+        Intro to RO-Crate
+        
+   </button>
+  </div>
+
+  <div id="collapsebuilding0" class="accordion-collapse collapse " aria-labelledby="headingbuilding0" data-bs-parent="#accordionbuilding">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://doi.org/10.5281/zenodo.7559339"}], "tags"=>["ro-crate"], "title"=>"Intro to RO-Crate", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/intro"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/intro", "captioned"=>true, "name"=>"ro-crates/intro"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/intro"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://doi.org/10.5281/zenodo.7559339?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://doi.org/10.5281/zenodo.7559339</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/intro/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingbuilding1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebuilding1" aria-expanded="false" aria-controls="collapsebuilding1">
+        Publishing My First™ RO-Crate
+        
+   </button>
+  </div>
+
+  <div id="collapsebuilding1" class="accordion-collapse collapse " aria-labelledby="headingbuilding1" data-bs-parent="#accordionbuilding">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://github.com/ResearchObject/ro-tutorials"}, {"link"=>"https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html"}, {"link"=>"https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18"}, {"link"=>"https://github.com/marketplace/actions/ro-crate-preview"}], "tags"=>["ro-crate"], "title"=>"Publishing My First™ RO-Crate", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/publishing"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/publishing", "captioned"=>true, "name"=>"ro-crates/publishing"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/publishing"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://github.com/ResearchObject/ro-tutorials?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://github.com/ResearchObject/ro-tutorials</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://www.researchobject.org/ro-crate/1.2-DRAFT/introduction.html</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://slides.com/soilandreyes/2021-07-15-sharing-fair-research-objects#/18</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://github.com/marketplace/actions/ro-crate-preview?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://github.com/marketplace/actions/ro-crate-preview</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/publishing/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingbuilding2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebuilding2" aria-expanded="false" aria-controls="collapsebuilding2">
+        RO-Crate in Python
+        
+   </button>
+  </div>
+
+  <div id="collapsebuilding2" class="accordion-collapse collapse " aria-labelledby="headingbuilding2" data-bs-parent="#accordionbuilding">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate"}], "tags"=>["ro-crate", "python"], "title"=>"RO-Crate in Python", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/python"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/python", "captioned"=>true, "name"=>"ro-crates/python"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/python"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://github.com/ResearchObject/ro-crate-py#creating-an-ro-crate</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/python/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingbuilding3">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebuilding3" aria-expanded="false" aria-controls="collapsebuilding3">
+        Workflow Run Crate profile intro
+        
+   </button>
+  </div>
+
+  <div id="collapsebuilding3" class="accordion-collapse collapse " aria-labelledby="headingbuilding3" data-bs-parent="#accordionbuilding">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://www.researchobject.org/workflow-run-crate/profiles/"}, {"link"=>"https://by-covid.github.io/baseline-use-case-synthetic-crate/"}], "tags"=>["ro-crate"], "title"=>"Workflow Run Crate profile intro", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/workflow-run-crate"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/workflow-run-crate", "captioned"=>true, "name"=>"ro-crates/workflow-run-crate"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/workflow-run-crate"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://www.researchobject.org/workflow-run-crate/profiles/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://www.researchobject.org/workflow-run-crate/profiles/</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://by-covid.github.io/baseline-use-case-synthetic-crate/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://by-covid.github.io/baseline-use-case-synthetic-crate/</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/workflow-run-crate/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingbuilding4">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebuilding4" aria-expanded="false" aria-controls="collapsebuilding4">
+        Extending RO-Crate & Making a Profile
+        
+   </button>
+  </div>
+
+  <div id="collapsebuilding4" class="accordion-collapse collapse " aria-labelledby="headingbuilding4" data-bs-parent="#accordionbuilding">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles"}], "tags"=>["ro-crate"], "title"=>"Extending RO-Crate & Making a Profile", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/extending"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/extending", "captioned"=>true, "name"=>"ro-crates/extending"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/extending"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/extending/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+  
+  
+  
+  <h3 class="module-start"> Publishing Workflow RO-Crates with Galaxy </h3>
+  
+  <p class="module-description"> 
+ </p>
+  <div class="accordion" id="accordionextending">
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingextending0">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseextending0" aria-expanded="false" aria-controls="collapseextending0">
+        Registering Galaxy workflows in WorkflowHub
+        
+   </button>
+  </div>
+
+  <div id="collapseextending0" class="accordion-collapse collapse " aria-labelledby="headingextending0" data-bs-parent="#accordionextending">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://dev.workflowhub.eu"}, {"link"=>"https://about.workflowhub.eu/docs/registering-a-workflow/"}], "tags"=>["ro-crate", "workflowhub"], "title"=>"Registering Galaxy workflows in WorkflowHub", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/workflowhub"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/workflowhub", "captioned"=>true, "name"=>"ro-crates/workflowhub"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/workflowhub"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://dev.workflowhub.eu?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://dev.workflowhub.eu</a>
+                        
+                    </li>
+                
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://about.workflowhub.eu/docs/registering-a-workflow/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://about.workflowhub.eu/docs/registering-a-workflow/</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/workflowhub/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingextending1">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseextending1" aria-expanded="false" aria-controls="collapseextending1">
+        Best Practices for RO-Crates in Galaxy in GitHub Repositories
+        
+   </button>
+  </div>
+
+  <div id="collapseextending1" class="accordion-collapse collapse " aria-labelledby="headingextending1" data-bs-parent="#accordionextending">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows"}], "tags"=>["ro-crate"], "title"=>"Best Practices for RO-Crates in Galaxy in GitHub Repositories", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/bestpractices"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/bestpractices", "captioned"=>true, "name"=>"ro-crates/bestpractices"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/bestpractices"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://github.com/galaxyproject/iwc/blob/main/workflows/README.md#adding-workflows</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/bestpractices/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingextending2">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseextending2" aria-expanded="false" aria-controls="collapseextending2">
+        Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile
+        
+   </button>
+  </div>
+
+  <div id="collapseextending2" class="accordion-collapse collapse " aria-labelledby="headingextending2" data-bs-parent="#accordionextending">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        
+           
+           <!-- session: {"description"=>nil, "materials"=>[{"link"=>"https://crs4.github.io/life_monitor/lm_wft_best_practices_github_app"}], "tags"=>["ro-crate"], "title"=>"Submitting workflows to LifeMonitor with the Workflow Testing RO-Crate profile", "type"=>"Tutorial", "versions"=>[{"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/lifemonitor"}], "support_channel"=>"ro-crate", "gtn_id"=>"ro-crates/lifemonitor", "captioned"=>true, "name"=>"ro-crates/lifemonitor"}<br><br> video: {"captions"=>["stain"], "date"=>"2023-03-03", "length"=>"20M", "link"=>"dQw4w9WgXcQ", "speakers"=>["stain"], "name"=>"ro-crates/lifemonitor"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">Tutorial Video   </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>20 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/stain/">Stian Soiland-Reyes</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>3 March 2023</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+
+                        
+                        
+				<a href="https://crs4.github.io/life_monitor/lm_wft_best_practices_github_app?utm_source=schedule&utm_medium=click&utm_campaign=video-library">https://crs4.github.io/life_monitor/lm_wft_best_practices_github_app</a>
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ro-crate">#ro-crate</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/ro-crates/lifemonitor/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="stain">
+			
+			<a href="/video-library/contributors/stain/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/stain" alt="">
+            
+			<div class="name">
+				<b>Stian Soiland-Reyes</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://by-covid.eu/">
+					BY-COVID
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
+  </div>
+
+
+
+
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/video-library/"></data>
+
+  <div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="footer-heading">
+             <img src="/video-library/assets/images/logos/gallantries.png" alt="Logo for the Gallantries project"  width="30em"/>
+             GTN Video Library
+            </h2>
+        </div>
+        <div class="col-md-4">
+          <p>Everyone participating is expected to abide by the <a href="https://galaxyproject.org/community/coc/">Code of Conduct</a></p>
+        </div>
+        <div class="col-md-4">
+            <img src="/video-library/assets/images/logos/erasmusplus.jpg" alt="european flag with text: With the support of the Erasmus+ Programme of the European Union."/>
+                    </div>
+    </div>
+	This project (<a href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717">2020-1-NL01-KA203-064717</a>) is funded with the support of the Erasmus+ programme of the European Union.
+
+  </div>
+
+</footer>
+</body>
+
+
+</html>

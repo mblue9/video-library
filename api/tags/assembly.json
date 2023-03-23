@@ -3,7 +3,6 @@
   "videos": {
     "assembly/assembly-with-preprocessing": {
       "description": "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/assembly-with-preprocessing/slides.html",
@@ -31,11 +30,13 @@
             "gallardoalba"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/assembly-with-preprocessing",
+      "title": "Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads",
+      "captioned": true
     },
     "assembly/chloroplast-assembly/tutorial": {
       "description": "In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/chloroplast-assembly/tutorial.html",
@@ -60,11 +61,13 @@
             "annasyme"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/chloroplast-assembly",
+      "title": "Chloroplast genome assembly",
+      "captioned": true
     },
     "assembly/general-introduction/slides": {
       "description": "This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.",
-      "faq": "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub",
       "materials": [
         {
           "link": "topics/assembly/tutorials/general-introduction/slides.html",
@@ -90,7 +93,44 @@
             "slugger70"
           ]
         }
-      ]
+      ],
+      "gtn_id": "assembly/general-introduction",
+      "title": "An Introduction to Genome Assembly",
+      "captioned": true
+    },
+    "assembly/vgp_genome_assembly-workflow": {
+      "description": "This demo walks you through running the VGP Genome Assembly workflows, rather than the whole tutorial (as most GTN Tapas videos do)\n",
+      "materials": [
+        {
+          "link": "topics/assembly/tutorials/vgp_genome_assembly/tutorial.html",
+          "title": "Full Tutorial (Step-by-step, not workflow-based like video)",
+          "type": "Tutorial"
+        },
+        {
+          "external": true,
+          "link": "https://www.dropbox.com/sh/ayix345v11n69es/AABJerasUhiD4JfSgS3g0kS7a?dl=0&preview=VGP-Gtapas-2022.pdf",
+          "type": "Non-GTN Lecture"
+        }
+      ],
+      "tags": [
+        "assembly"
+      ],
+      "title": "Running the VGP Genome Assembly workflows",
+      "type": "Demo",
+      "versions": [
+        {
+          "captions": null,
+          "date": "2022-03-13",
+          "galaxy_version": "21.09",
+          "length": "10M",
+          "link": "0EoBDiyd-84",
+          "speakers": [
+            "delphine-l"
+          ]
+        }
+      ],
+      "gtn_id": "assembly/vgp_genome_assembly-workflow",
+      "captioned": false
     }
   }
 }

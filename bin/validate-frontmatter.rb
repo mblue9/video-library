@@ -7,6 +7,7 @@ require 'kwalify'
 
 # Schemas
 EVENT_SCHEMA = YAML.load_file('bin/schema-event.yaml')
+VIDEO_SCHEMA = YAML.load_file('bin/schema-videos.yaml')
 
 # Contributors
 CONTRIBUTORS = YAML.load_file('_data/instructors.yaml')
@@ -16,10 +17,12 @@ SESSIONS = YAML.load_file('_data/sessions.yaml')
 # Update the existing schemas to have enums with values. Then we get validation
 # *for free*!
 EVENT_SCHEMA['mapping']['instructors']['sequence'][0]['enum'] = CONTRIBUTORS.keys
+EVENT_SCHEMA['mapping']['organisers']['sequence'][0]['enum'] = CONTRIBUTORS.keys
 EVENT_SCHEMA['mapping']['contacts']['sequence'][0]['enum'] = CONTRIBUTORS.keys
 EVENT_SCHEMA['mapping']['program']['mapping']['=']['mapping']['trainings']['sequence'][0]['mapping']['video']['enum'] = VIDEOS.keys
 EVENT_SCHEMA['mapping']['program']['mapping']['=']['mapping']['trainings']['sequence'][0]['mapping']['session']['enum'] = SESSIONS.keys
 EVENT_SCHEMA['mapping']['program']['mapping']['=']['mapping']['trainings']['sequence'][0]['mapping']['instructors']['sequence'][0]['enum'] = CONTRIBUTORS.keys
+
 
 # Build validators now that we've filled out the subtopic enum
 $event_validator = Kwalify::Validator.new(EVENT_SCHEMA)

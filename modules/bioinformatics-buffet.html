@@ -39,9 +39,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        <!--
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/">Home</a>
         </li>
+        -->
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/events">Events</a>
         </li>
@@ -51,11 +53,16 @@
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/library">Videos</a>
         </li>
+        <!--
         <li class="nav-item">
 			<a class="nav-link" href="/video-library/session-library">Sessions</a>
         </li>
-               <li class="nav-item">
+        -->
+        <li class="nav-item">
 			<a class="nav-link" href="/video-library/course-builder">Course Builder</a>
+        </li>
+        <li class="nav-item">
+			<a class="nav-link" href="/video-library/instructors">Instructor Guide</a>
         </li>
 
         <li class="nav-item">
@@ -98,7 +105,9 @@
 
   
   
+  
   <h3 class="module-start"> Monday: Introduction to Galaxy and Genomics </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionday1">
@@ -136,7 +145,8 @@
       
         
            
-           <!-- session: {"title"=>"A Very Short Introduction to Galaxy", "description"=>"This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub", "materials"=>[{"link"=>"topics/introduction/tutorials/galaxy-intro-short/slides.html", "title"=>"A Short Introduction to Galaxy", "type"=>"Related Slides"}], "tags"=>["galaxy-intro", "galaxy"], "type"=>"Lecture & Demo", "versions"=>[{"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"}], "name"=>"galaxy/intro"}<br><br> video: {"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"} -->
+           <!-- session: {"description"=>"This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.", "materials"=>[{"link"=>"topics/introduction/tutorials/galaxy-intro-short/slides.html", "title"=>"A Short Introduction to Galaxy", "type"=>"Related Slides"}], "tags"=>["galaxy-intro", "galaxy"], "title"=>"A Very Short Introduction to Galaxy", "type"=>"Lecture & Demo", "versions"=>[{"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"}], "gtn_id"=>"galaxy/intro", "captioned"=>true, "name"=>"galaxy/intro"}<br><br> video: {"captions"=>["nekrut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"VZoz3k5EehI", "speakers"=>["nekrut"], "name"=>"galaxy/intro"} -->
+
 
 
 
@@ -169,7 +179,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.</td>
+              <td><p>This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.</p>
+</td>
           </tr>
           
           <tr>
@@ -190,21 +201,27 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
 
+                        
+                        
+				Related Slides:
 
-                        
-                        
-                        Related Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/galaxy-intro-short/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/galaxy-intro-short/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-short/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -212,15 +229,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -228,6 +244,10 @@
           </tr>
           
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -254,14 +274,18 @@
     
     
 		<div class="hall-of-fame-hero" id="nekrut">
+			
 			<a href="/video-library/contributors/nekrut/">
+			
             
 			<img src="https://avatars.githubusercontent.com/nekrut" alt="">
             
 			<div class="name">
 				<b>Anton Nekrutenko</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.psu.edu/">
@@ -335,7 +359,8 @@
       
         
            
-           <!-- session: {"title"=>"Your First Galaxy Analysis", "description"=>"In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.", "faq"=>"https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub", "materials"=>[{"external"=>true, "link"=>"https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346", "title"=>"Overview Presentation", "type"=>"Slides"}, {"link"=>"topics/introduction/tutorials/galaxy-intro-strands/tutorial.html", "title"=>"Introduction to Genomics and Galaxy", "type"=>"Tutorial"}, {"link"=>"topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html", "title"=>"Extracting Workflows from Histories", "type"=>"Tutorial"}], "tags"=>["galaxy-intro", "galaxy"], "type"=>"Tutorial", "versions"=>[{"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"1UPCrQxGwcU", "speakers"=>["tnabtaf"], "name"=>"galaxy/intro2"}], "name"=>"galaxy/intro2"}<br><br> video: {"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"1UPCrQxGwcU", "speakers"=>["tnabtaf"], "name"=>"galaxy/intro2"} -->
+           <!-- session: {"description"=>"In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.", "materials"=>[{"external"=>true, "link"=>"https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346", "title"=>"Overview Presentation", "type"=>"Slides"}, {"link"=>"topics/introduction/tutorials/galaxy-intro-strands/tutorial.html", "title"=>"Introduction to Genomics and Galaxy", "type"=>"Tutorial"}, {"link"=>"topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html", "title"=>"Extracting Workflows from Histories", "type"=>"Tutorial"}], "tags"=>["galaxy-intro", "galaxy"], "title"=>"Your First Galaxy Analysis", "type"=>"Tutorial", "versions"=>[{"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"1UPCrQxGwcU", "speakers"=>["tnabtaf"], "name"=>"galaxy/intro2"}], "gtn_id"=>"galaxy/intro2", "captioned"=>true, "name"=>"galaxy/intro2"}<br><br> video: {"captions"=>["tnabtaf"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H30M", "link"=>"1UPCrQxGwcU", "speakers"=>["tnabtaf"], "name"=>"galaxy/intro2"} -->
+
 
 
 
@@ -368,7 +393,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.</td>
+              <td><p>In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.</p>
+</td>
           </tr>
           
           <tr>
@@ -389,50 +415,72 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
-
                         
                         
-                        <a href="https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346">Slides</a>
-                        
-                    </li>
-                
-                    <li>
-                        
-                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
-                        
-
-
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html">Latest Version</a>
+				<a href="https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Overview Presentation</a>
                         
                     </li>
                 
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-strands/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
 
                         
                         
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html">Latest Version</a>
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/galaxy-interface/tutorials/history-to-workflow/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -440,15 +488,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -456,6 +503,23 @@
           </tr>
           
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/galaxy-intro">#galaxy-intro</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -482,14 +546,18 @@
     
     
 		<div class="hall-of-fame-hero" id="tnabtaf">
+			
 			<a href="/video-library/contributors/tnabtaf/">
+			
             
 			<img src="https://avatars.githubusercontent.com/tnabtaf" alt="">
             
 			<div class="name">
 				<b>Dave Clements</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.jhu.edu/">
@@ -573,6 +641,7 @@
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -600,7 +669,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture goes over the concepts involved in assessing the quality of your sequencing data.</td>
+              <td><p>This lecture goes over the concepts involved in assessing the quality of your sequencing data.</p>
+</td>
           </tr>
           
           <tr>
@@ -621,23 +691,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -645,15 +721,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_quality-control">#ngs_quality-control</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_quality-control">#ngs_quality-control</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -680,6 +755,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -706,14 +785,18 @@
     
     
 		<div class="hall-of-fame-hero" id="heylf">
+			
 			<a href="/video-library/contributors/heylf/">
+			
             
 			<img src="https://avatars.githubusercontent.com/heylf" alt="">
             
 			<div class="name">
 				<b>Florian Heyl</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://uni-freiburg.de/">
@@ -739,6 +822,7 @@
           
           
           <!-- session: {"title"=>"Quality Control", "description"=>"In this sesssion, we will walk you through the basics of quality checking your sequencing data. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/quality-control/slides", "sequence-analysis/quality-control/tutorial"]}<br><br> video: {"captions"=>["bebatut", "nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H10M", "link"=>"QJRlX2hWDKM", "speakers"=>["heylf"], "name"=>"Quality Control"} -->
+
 
 
 
@@ -771,7 +855,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.</td>
+              <td><p>In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.</p>
+</td>
           </tr>
           
           <tr>
@@ -792,23 +877,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -816,15 +913,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_quality-control">#ngs_quality-control</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_quality-control">#ngs_quality-control</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -851,6 +947,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/ngs_quality-control">#ngs_quality-control</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -877,14 +990,18 @@
     
     
 		<div class="hall-of-fame-hero" id="heylf">
+			
 			<a href="/video-library/contributors/heylf/">
+			
             
 			<img src="https://avatars.githubusercontent.com/heylf" alt="">
             
 			<div class="name">
 				<b>Florian Heyl</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://uni-freiburg.de/">
@@ -929,7 +1046,9 @@
 
   
   
+  
   <h3 class="module-start"> Tuesday: Genomics </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionday2">
@@ -977,6 +1096,7 @@
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -1004,7 +1124,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.</td>
+              <td><p>This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.</p>
+</td>
           </tr>
           
           <tr>
@@ -1025,23 +1146,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/mapping/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/mapping/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -1049,15 +1176,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_mapping">#ngs_mapping</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_mapping">#ngs_mapping</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1078,6 +1204,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -1104,14 +1234,18 @@
     
     
 		<div class="hall-of-fame-hero" id="pvanheus">
+			
 			<a href="/video-library/contributors/pvanheus/">
+			
             
 			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
             
 			<div class="name">
 				<b>Peter van Heusden</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.sanbi.org/">
@@ -1137,6 +1271,7 @@
           
           
           <!-- session: {"title"=>"Mapping", "description"=>"In this sesssion, we will walk you through the basics of mapping your sequencing data to a reference genome. This session consists of a lecture followed by a hands-on tutorial.", "videos"=>["sequence-analysis/mapping/slides", "sequence-analysis/mapping/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"1wm-62E2NkY", "speakers"=>["pvanheus"], "name"=>"Mapping"} -->
+
 
 
 
@@ -1169,7 +1304,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.</td>
+              <td><p>In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.</p>
+</td>
           </tr>
           
           <tr>
@@ -1190,23 +1326,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/mapping/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/mapping/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/sequence-analysis/tutorials/mapping/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -1214,15 +1362,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_mapping">#ngs_mapping</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/ngs_mapping">#ngs_mapping</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1243,6 +1390,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/ngs_mapping">#ngs_mapping</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -1269,14 +1433,18 @@
     
     
 		<div class="hall-of-fame-hero" id="pvanheus">
+			
 			<a href="/video-library/contributors/pvanheus/">
+			
             
 			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
             
 			<div class="name">
 				<b>Peter van Heusden</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.sanbi.org/">
@@ -1360,6 +1528,7 @@
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -1387,7 +1556,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.</td>
+              <td><p>This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.</p>
+</td>
           </tr>
           
           <tr>
@@ -1408,23 +1578,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/general-introduction/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/assembly/tutorials/general-introduction/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/general-introduction/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/assembly/tutorials/general-introduction/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -1432,15 +1608,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/assembly_general-introduction">#assembly_general-introduction</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/assembly_general-introduction">#assembly_general-introduction</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1461,6 +1636,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -1487,14 +1666,18 @@
     
     
 		<div class="hall-of-fame-hero" id="slugger70">
+			
 			<a href="/video-library/contributors/slugger70/">
+			
             
 			<img src="https://avatars.githubusercontent.com/slugger70" alt="">
             
 			<div class="name">
 				<b>Simon Gladman</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.unimelb.edu.au/">
@@ -1520,6 +1703,7 @@
           
           
           <!-- session: {"title"=>"Genome Assembly", "description"=>"This session provides an introduction to Genome Assembly", "videos"=>["assembly/general-introduction/slides", "assembly/chloroplast-assembly/tutorial"]}<br><br> video: {"captions"=>["annasyme"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"35M", "link"=>"eyfCyINTD_E", "speakers"=>["annasyme"], "name"=>"Chloroplast genome assembly"} -->
+
 
 
 
@@ -1552,7 +1736,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.</td>
+              <td><p>In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.</p>
+</td>
           </tr>
           
           <tr>
@@ -1573,23 +1758,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/chloroplast-assembly/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/assembly/tutorials/chloroplast-assembly/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/assembly/tutorials/chloroplast-assembly/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/assembly/tutorials/chloroplast-assembly/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/assembly/tutorials/chloroplast-assembly/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -1597,15 +1794,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/assembly_chloroplast-assembly">#assembly_chloroplast-assembly</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/assembly_chloroplast-assembly">#assembly_chloroplast-assembly</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1630,6 +1826,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/assembly_chloroplast-assembly">#assembly_chloroplast-assembly</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -1656,14 +1869,18 @@
     
     
 		<div class="hall-of-fame-hero" id="annasyme">
+			
 			<a href="/video-library/contributors/annasyme/">
+			
             
 			<img src="https://avatars.githubusercontent.com/annasyme" alt="">
             
 			<div class="name">
 				<b>Anna Syme</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.unimelb.edu.au/">
@@ -1747,6 +1964,7 @@
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -1774,7 +1992,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.</td>
+              <td><p>Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease.</p>
+</td>
           </tr>
           
           <tr>
@@ -1795,20 +2014,20 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
-
                         
                         
-                        <a href="https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34">Slides</a>
+				<a href="https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Slides</a>
                         
                     </li>
                 
@@ -1816,15 +2035,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1832,6 +2050,10 @@
           </tr>
           
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -1858,14 +2080,18 @@
     
     
 		<div class="hall-of-fame-hero" id="pvanheus">
+			
 			<a href="/video-library/contributors/pvanheus/">
+			
             
 			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
             
 			<div class="name">
 				<b>Peter van Heusden</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.sanbi.org/">
@@ -1891,6 +2117,7 @@
           
           
           <!-- session: {"title"=>"Tuberculosis Variant Analysis", "description"=>"Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.", "videos"=>["variant-analysis/tb-variant-analysis/slides", "variant-analysis/tb-variant-analysis/tutorial"]}<br><br> video: {"captions"=>["pvanheus", "nagoue", "hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"40M", "link"=>"G1DmquX6Wh8", "speakers"=>["pvanheus"], "name"=>"M. tuberculosis Variant Analysis"} -->
+
 
 
 
@@ -1923,7 +2150,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.</td>
+              <td><p>Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.</p>
+</td>
           </tr>
           
           <tr>
@@ -1944,23 +2172,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/variant-analysis/tutorials/tb-variant-analysis/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -1968,15 +2208,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -1999,6 +2238,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/variant-analysis_tb-variant-analysis">#variant-analysis_tb-variant-analysis</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -2025,14 +2281,18 @@
     
     
 		<div class="hall-of-fame-hero" id="pvanheus">
+			
 			<a href="/video-library/contributors/pvanheus/">
+			
             
 			<img src="https://avatars.githubusercontent.com/pvanheus" alt="">
             
 			<div class="name">
 				<b>Peter van Heusden</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.sanbi.org/">
@@ -2117,6 +2377,7 @@
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -2144,7 +2405,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture will introduce the basic concepts involved in ATAC-Seq analysis.</td>
+              <td><p>This lecture will introduce the basic concepts involved in ATAC-Seq analysis.</p>
+</td>
           </tr>
           
           <tr>
@@ -2165,23 +2427,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/epigenetics/tutorials/atac-seq/slides.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/slides.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/epigenetics/tutorials/atac-seq/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -2189,15 +2457,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/epigenetics_atac-seq">#epigenetics_atac-seq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/epigenetics_atac-seq">#epigenetics_atac-seq</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -2220,6 +2487,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -2246,14 +2517,18 @@
     
     
 		<div class="hall-of-fame-hero" id="lldelisle">
+			
 			<a href="/video-library/contributors/lldelisle/">
+			
             
 			<img src="https://avatars.githubusercontent.com/lldelisle" alt="">
             
 			<div class="name">
 				<b>Lucille Delisle</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.epfl.ch/en/">
@@ -2279,6 +2554,7 @@
           
           
           <!-- session: {"title"=>"Epigenetics: ATAC-Seq", "description"=>"ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) is a technique used in molecular biology to assess genome-wide chromatin accessibility. This session will introduce ATAC-Seq and walk you through an analysis step by step.\n", "videos"=>["epigenetics/atac-seq/slides", "epigenetics/atac-seq/tutorial"]}<br><br> video: {"captions"=>["hrhotz"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H50M", "link"=>"Zc-bl6ZfcX4", "speakers"=>["heylf"], "name"=>"ATAC-Seq data analysis"} -->
+
 
 
 
@@ -2311,7 +2587,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This tutorial will walk you through a ATAC-Seq data analysis.</td>
+              <td><p>This tutorial will walk you through a ATAC-Seq data analysis.</p>
+</td>
           </tr>
           
           <tr>
@@ -2332,23 +2609,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/epigenetics/tutorials/atac-seq/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/epigenetics/tutorials/atac-seq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -2356,15 +2645,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/epigenetics_atac-seq">#epigenetics_atac-seq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/epigenetics_atac-seq">#epigenetics_atac-seq</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -2387,6 +2675,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/epigenetics_atac-seq">#epigenetics_atac-seq</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -2413,14 +2718,18 @@
     
     
 		<div class="hall-of-fame-hero" id="heylf">
+			
 			<a href="/video-library/contributors/heylf/">
+			
             
 			<img src="https://avatars.githubusercontent.com/heylf" alt="">
             
 			<div class="name">
 				<b>Florian Heyl</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://uni-freiburg.de/">
@@ -2461,11 +2770,445 @@
 
      
   
+     
+
+     
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+<div class="accordion-item">
+  
+  <div class="accordion-header" id="headingday24">
+   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseday24" aria-expanded="false" aria-controls="collapseday24">
+        CRISPR Screen Analysis
+        
+   </button>
+  </div>
+
+  <div id="collapseday24" class="accordion-collapse collapse " aria-labelledby="headingday24" data-bs-parent="#accordionday2">
+
+    <div class="accordion-body">
+
+      <!-- Video -->
+      
+        <p>This lecture will introduce the basic concepts involved in CRISPR screen analysis.</p>
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"CRISPR Screen Analysis", "description"=>"This lecture will introduce the basic concepts involved in CRISPR screen analysis.", "videos"=>["genome-annotation/crispr-screen/slides", "genome-annotation/crispr-screen/tutorial"]}<br><br> video: {"captions"=>["mblue9"], "date"=>"2022-03-10", "galaxy_version"=>"21.09", "length"=>"3M", "link"=>"MNT9gB5_RMg", "speakers"=>["awspolly"], "name"=>"CRISPR screen analysis"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">CRISPR screen analysis (Lecture)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/MNT9gB5_RMg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This lecture will introduce the basic concepts involved in CRISPR screen analysis.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>3 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mblue9/">Maria Doyle</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>10 March 2022</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
+                        
+
+                        
+                        
+				Slides:
+
+				<a href="https://training.galaxyproject.org/archive/2022-04-01/topics/genome-annotation/tutorials/crispr-screen/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/genome-annotation/tutorials/crispr-screen/slides.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/genome-annotation_crispr-screen">#genome-annotation_crispr-screen</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Apply appropriate analysis and quality control steps for CRISPR screen data</li>
+                      
+                      <li>Identify differentially enriched genes across conditions</li>
+                      
+                      <li>Generate volcano plot to visualise results</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/genome-annotation/crispr-screen/slides">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="awspolly">
+			
+			<a href="/video-library/contributors/awspolly/">
+			
+            
+            <img src="/video-library/assets/images/instructors/polly.png" alt="">
+            
+			<div class="name">
+				<b>These slides are narrated by AWS Polly.</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+          
+          
+          
+          
+          <!-- session: {"title"=>"CRISPR Screen Analysis", "description"=>"This lecture will introduce the basic concepts involved in CRISPR screen analysis.", "videos"=>["genome-annotation/crispr-screen/slides", "genome-annotation/crispr-screen/tutorial"]}<br><br> video: {"captions"=>["mblue9"], "date"=>"2022-03-10", "galaxy_version"=>"21.09", "length"=>"45M", "link"=>"wavAf_2ytWg", "speakers"=>["mblue9"], "name"=>"CRISPR screen analysis"} -->
+
+
+
+
+
+
+<!-- determine the next archived version of tutorial -->
+
+
+
+
+<div class="flex-row" style="margin-top:1em;">
+ <div class="col-md-8">
+  <h3 class="session-section">CRISPR screen analysis (Tutorial)  </h3>
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    
+    data-src="https://www.youtube.com/embed/wavAf_2ytWg"
+    
+     class="lazyload"
+     loading="lazy"
+     frameborder="0"
+     title="YouTube Embedded Video of the Tutorial"
+     aria-label="YouTube Embedded Video of the Tutorial"
+     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;" class="video-metadata">
+      <table>
+          
+          <tr>
+              <td><strong>Description:</strong></td>
+              <td><p>This tutorial will walk you through a CRISPR screen analysis.</p>
+</td>
+          </tr>
+          
+          <tr>
+              <td><strong>Length:</strong></td>
+              <td>45 minutes</td>
+          </tr>
+   
+   
+          <tr>
+              <td><strong>Captions:</strong></td>
+              <td> <a href="/video-library/contributors/mblue9/">Maria Doyle</a></td>
+          </tr>
+   
+          
+          <tr>
+              <td><strong>Created:</strong></td>
+              <td>10 March 2022</td>
+          </tr>
+          
+          
+          
+          <tr>
+              <td><strong>Materials:</strong></td>
+              <td>
+                <ul class="plain-text-list">
+                    
+                    <li>
+                        
+                            <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
+                        
+
+                        
+                        
+				Tutorial:
+
+				<a href="https://training.galaxyproject.org/archive/2022-04-01/topics/genome-annotation/tutorials/crispr-screen/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/genome-annotation/tutorials/crispr-screen/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/genome-annotation/tutorials/crispr-screen/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
+                        
+                    </li>
+                
+                </ul>
+              </td>
+          </tr>
+          
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
+              <td><strong>Support:</strong></td>
+              <td>
+              <ul>
+                
+                
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/genome-annotation_crispr-screen">#genome-annotation_crispr-screen</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
+                <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
+                <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
+              </ul>
+              </td>
+          </tr>
+          
+          
+          <tr>
+              <td><strong>Learning Objectives:</strong></td>
+              <td>
+                  <ul>
+                      
+                      <li>Apply appropriate analysis and quality control steps for CRISPR screen data</li>
+                      
+                      <li>Identify differentially enriched genes across conditions</li>
+                      
+                      <li>Generate volcano plot to visualise results</li>
+                      
+                  </ul>
+              </td>
+          </tr>
+          
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/genome-annotation_crispr-screen">#genome-annotation_crispr-screen</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
+      </table>
+
+  </div>
+  
+  Go to the <a href="/video-library/videos/genome-annotation/crispr-screen/tutorial">video page</a> to see all versions.
+  
+ </div>
+ <!-- speaker(s) -->
+ 
+ 
+
+ <div class="col-md-3">
+  <center><h3 class="session-section">Speaker</h3></center>
+  
+
+
+
+
+
+
+
+<div class="hall-of-fame">
+    
+    
+    
+		<div class="hall-of-fame-hero" id="mblue9">
+			
+			<a href="/video-library/contributors/mblue9/">
+			
+            
+			<img src="https://avatars.githubusercontent.com/mblue9" alt="">
+            
+			<div class="name">
+				<b>Maria Doyle</b>
+			</div>
+			
+			</a>
+			
+			<div class="affil">
+				
+				<a href="https://www.petermac.org/">
+					Peter MacCallum Cancer Centre
+				</a>
+				
+			</div>
+		</div>
+	
+    
+</div>
+
+ </div>
+
+
+</div><!-- end video session -->
+
+
+
+        
+        Go to <a href="/video-library/sessions/genome-annotation/crispr-screen/">session page</a>.
+      
+
+
+      <!-- Instructors -->
+      
+
+      <!-- Supporting Servers -->
+
+      <!-- Resources -->
+
+    </div><!-- end accordion body -->
+  </div><!-- end collapse -->
+</div><!-- end accordion item (training session) -->
+
+
+
+
+     
+  
   </div>
 
   
   
+  
   <h3 class="module-start"> Wednesday: Transcriptomics </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionday3">
@@ -2503,7 +3246,8 @@
       
         
            
-           <!-- session: {"description"=>"RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub", "materials"=>[{"link"=>"topics/transcriptomics/slides/introduction.html", "title"=>"Introduction to Transcriptomics", "type"=>"Slides"}], "tags"=>["transcriptomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"}], "name"=>"Introduction to Transcriptomics"}<br><br> video: {"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"} -->
+           <!-- session: {"description"=>"RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.", "materials"=>[{"link"=>"topics/transcriptomics/slides/introduction.html", "title"=>"Introduction to Transcriptomics", "type"=>"Slides"}], "tags"=>["transcriptomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"}], "gtn_id"=>"transcriptomics/introduction", "title"=>"Introduction to Transcriptomics", "captioned"=>true, "name"=>"Introduction to Transcriptomics"}<br><br> video: {"captions"=>["nagoue", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"qKkS_tztw_Q", "speakers"=>["fpsom"], "name"=>"Introduction to Transcriptomics"} -->
+
 
 
 
@@ -2536,7 +3280,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.</td>
+              <td><p>RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.</p>
+</td>
           </tr>
           
           <tr>
@@ -2557,23 +3302,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/slides/introduction.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/slides/introduction.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/transcriptomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -2581,15 +3332,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_introduction">#transcriptomics_introduction</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_introduction">#transcriptomics_introduction</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -2606,6 +3356,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -2632,14 +3386,18 @@
     
     
 		<div class="hall-of-fame-hero" id="fpsom">
+			
 			<a href="/video-library/contributors/fpsom/">
+			
             
 			<img src="https://avatars.githubusercontent.com/fpsom" alt="">
             
 			<div class="name">
 				<b>Fotis E. Psomopoulos</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.inab.certh.gr/">
@@ -2713,7 +3471,8 @@
       
         
            
-           <!-- session: {"description"=>"In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/ref-based/tutorial.html", "title"=>"Reference-based RNA-Seq data analysis", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"}], "name"=>"Reference-based RNA-Seq data analysis"}<br><br> video: {"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"} -->
+           <!-- session: {"description"=>"In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/ref-based/tutorial.html", "title"=>"Reference-based RNA-Seq data analysis", "type"=>"Tutorial"}], "tags"=>["transcriptomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"}], "gtn_id"=>"transcriptomics/ref-based", "title"=>"Reference-based RNA-Seq data analysis", "captioned"=>true, "name"=>"Reference-based RNA-Seq data analysis"}<br><br> video: {"captions"=>["hexylena", "shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"2H30M", "link"=>"j4onRSN650A", "speakers"=>["bebatut"], "name"=>"Reference-based RNA-Seq data analysis"} -->
+
 
 
 
@@ -2746,7 +3505,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.</td>
+              <td><p>In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.</p>
+</td>
           </tr>
           
           <tr>
@@ -2767,23 +3527,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/ref-based/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/ref-based/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -2791,15 +3563,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_ref-based">#transcriptomics_ref-based</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_ref-based">#transcriptomics_ref-based</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -2838,6 +3609,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_ref-based">#transcriptomics_ref-based</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -2864,18 +3652,26 @@
     
     
 		<div class="hall-of-fame-hero" id="bebatut">
+			
 			<a href="/video-library/contributors/bebatut/">
+			
             
 			<img src="https://avatars.githubusercontent.com/bebatut" alt="">
             
 			<div class="name">
 				<b>Bérénice Batut</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://uni-freiburg.de/">
 					Albert-Ludwigs-Universität Freiburg
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
 				</a>
 				
 			</div>
@@ -2945,7 +3741,8 @@
       
         
            
-           <!-- session: {"description"=>"This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html", "title"=>"Visualization of RNA-Seq results with Volcano Plot", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "visualisation"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"}], "name"=>"Visualization of RNA-Seq results with Volcano Plot"}<br><br> video: {"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"} -->
+           <!-- session: {"description"=>"This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.", "materials"=>[{"link"=>"topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html", "title"=>"Visualization of RNA-Seq results with Volcano Plot", "type"=>"Tutorial"}], "tags"=>["transcriptomics", "visualisation"], "type"=>"Tutorial", "versions"=>[{"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"}], "gtn_id"=>"transcriptomics/rna-seq-viz-with-volcanoplot", "title"=>"Visualization of RNA-Seq results with Volcano Plot", "captioned"=>true, "name"=>"Visualization of RNA-Seq results with Volcano Plot"}<br><br> video: {"captions"=>["mblue9"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"10M", "link"=>"uNGXIcEGZwA", "speakers"=>["mblue9"], "name"=>"Visualization of RNA-Seq results with Volcano Plot"} -->
+
 
 
 
@@ -2978,7 +3775,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.</td>
+              <td><p>This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.</p>
+</td>
           </tr>
           
           <tr>
@@ -2999,23 +3797,35 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -3023,15 +3833,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_rna-seq-viz-with-volcanoplot">#transcriptomics_rna-seq-viz-with-volcanoplot</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_rna-seq-viz-with-volcanoplot">#transcriptomics_rna-seq-viz-with-volcanoplot</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -3050,6 +3859,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/transcriptomics_rna-seq-viz-with-volcanoplot">#transcriptomics_rna-seq-viz-with-volcanoplot</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -3076,14 +3902,18 @@
     
     
 		<div class="hall-of-fame-hero" id="mblue9">
+			
 			<a href="/video-library/contributors/mblue9/">
+			
             
 			<img src="https://avatars.githubusercontent.com/mblue9" alt="">
             
 			<div class="name">
 				<b>Maria Doyle</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.petermac.org/">
@@ -3128,7 +3958,9 @@
 
   
   
+  
   <h3 class="module-start"> Thursday: Proteomics </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionday4">
@@ -3166,7 +3998,8 @@
       
         
            
-           <!-- session: {"description"=>"This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub", "materials"=>[{"link"=>"topics/proteomics/slides/introduction.html", "title"=>"Introduction to proteomics, protein identification, quantification and statistical modelling", "type"=>"Slides"}], "tags"=>["proteomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"} -->
+           <!-- session: {"description"=>"This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.", "materials"=>[{"link"=>"topics/proteomics/slides/introduction.html", "title"=>"Introduction to proteomics, protein identification, quantification and statistical modelling", "type"=>"Slides"}], "tags"=>["proteomics"], "type"=>"Lecture", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}], "gtn_id"=>"proteomics/introduction", "title"=>"Introduction to proteomics, protein identification, quantification and statistical modelling", "captioned"=>true, "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"20M", "link"=>"2C96AvrFT38", "speakers"=>["awspolly"], "name"=>"Introduction to proteomics, protein identification, quantification and statistical modelling"} -->
+
 
 
 
@@ -3199,7 +4032,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.</td>
+              <td><p>This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.</p>
+</td>
           </tr>
           
           <tr>
@@ -3220,23 +4054,29 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/slides/introduction.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/proteomics/slides/introduction.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/proteomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -3244,15 +4084,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_introduction">#proteomics_introduction</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_introduction">#proteomics_introduction</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -3269,6 +4108,10 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -3295,14 +4138,18 @@
     
     
 		<div class="hall-of-fame-hero" id="awspolly">
+			
 			<a href="/video-library/contributors/awspolly/">
+			
             
             <img src="/video-library/assets/images/instructors/polly.png" alt="">
             
 			<div class="name">
 				<b>These slides are narrated by AWS Polly.</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 			</div>
@@ -3372,7 +4219,8 @@
       
         
            
-           <!-- session: {"description"=>"Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.", "faq"=>"https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub", "materials"=>[{"link"=>"topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html", "title"=>"MaxQuant and MSstats for the analysis of label-free data", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training", "title"=>"Galaxy History of this tutorial", "type"=>"Example History"}], "tags"=>["proteomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"}], "name"=>"MaxQuant and MSstats for the analysis of label-free data"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"} -->
+           <!-- session: {"description"=>"Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.", "materials"=>[{"link"=>"topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html", "title"=>"MaxQuant and MSstats for the analysis of label-free data", "type"=>"Tutorial"}, {"external"=>true, "link"=>"https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training", "title"=>"Galaxy History of this tutorial", "type"=>"Example History"}], "tags"=>["proteomics"], "type"=>"Tutorial", "versions"=>[{"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"}], "gtn_id"=>"proteomics/maxquant-msstats-dda-lfq", "title"=>"MaxQuant and MSstats for the analysis of label-free data", "captioned"=>true, "name"=>"MaxQuant and MSstats for the analysis of label-free data"}<br><br> video: {"captions"=>["foellmelanie"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H", "link"=>"IXdLAt2PAT4", "speakers"=>["foellmelanie"], "name"=>"MaxQuant and MSstats for the analysis of label-free data"} -->
+
 
 
 
@@ -3405,7 +4253,8 @@
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.</td>
+              <td><p>Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats.</p>
+</td>
           </tr>
           
           <tr>
@@ -3426,33 +4275,44 @@
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
                     <li>
                         
 
-
                         
                         
-                        <a href="https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training">Example History</a>
+				<a href="https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Galaxy History of this tutorial</a>
                         
                     </li>
                 
@@ -3460,15 +4320,14 @@
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_maxquant-msstats-dda-lfq">#proteomics_maxquant-msstats-dda-lfq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_maxquant-msstats-dda-lfq">#proteomics_maxquant-msstats-dda-lfq</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -3487,6 +4346,23 @@
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/proteomics_maxquant-msstats-dda-lfq">#proteomics_maxquant-msstats-dda-lfq</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -3513,14 +4389,18 @@
     
     
 		<div class="hall-of-fame-hero" id="foellmelanie">
+			
 			<a href="/video-library/contributors/foellmelanie/">
+			
             
 			<img src="https://avatars.githubusercontent.com/foellmelanie" alt="">
             
 			<div class="name">
 				<b>Melanie Föll</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://www.uniklinik-freiburg.de/pathologie-en.html">
@@ -3565,7 +4445,9 @@
 
   
   
+  
   <h3 class="module-start"> Friday: Microbiome </h3>
+  
   <p class="module-description"> 
  </p>
   <div class="accordion" id="accordionday5">
@@ -3617,6 +4499,7 @@ mothur tool suite.
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -3644,7 +4527,8 @@ mothur tool suite.
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
           </tr>
           
           <tr>
@@ -3665,23 +4549,29 @@ mothur tool suite.
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/slides.svg" alt="assets/fa/slides.svg" aria-hidden="true"/>
                         
 
+                        
+                        
+				Slides:
 
-                        
-                        
-                        Slides:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/slides/introduction.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/slides/introduction.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -3689,15 +4579,14 @@ mothur tool suite.
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_introduction">#metagenomics_introduction</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_introduction">#metagenomics_introduction</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -3714,6 +4603,10 @@ mothur tool suite.
               </td>
           </tr>
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -3740,18 +4633,26 @@ mothur tool suite.
     
     
 		<div class="hall-of-fame-hero" id="shiltemann">
+			
 			<a href="/video-library/contributors/shiltemann/">
+			
             
 			<img src="https://avatars.githubusercontent.com/shiltemann" alt="">
             
 			<div class="name">
 				<b>Saskia Hiltemann</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://erasmusmc.nl">
 					Erasmus Medical Center
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
 				</a>
 				
 			</div>
@@ -3773,6 +4674,7 @@ mothur tool suite.
           
           
           <!-- session: {"title"=>"16S taxonomic profiling", "description"=>"To determine the composition of a microbiome sample, sequencing of the 16S rRNA gene\nis often used. This allows us to identify the bacterial species present in our sample.\nThis lecture and practical session introduces you to 16S analysis in Galaxy using the\nmothur tool suite.\n", "videos"=>["metagenomics/introduction/slides", "metagenomics/mothur-miseq-sop-short/tutorial"]}<br><br> video: {"captions"=>["shiltemann"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"1H40M", "link"=>"mto4Nl-q7Kk", "speakers"=>["shiltemann"], "name"=>"16S Microbial Analysis with mothur (short)"} -->
+
 
 
 
@@ -3805,7 +4707,8 @@ mothur tool suite.
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</td>
+              <td><p>This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.</p>
+</td>
           </tr>
           
           <tr>
@@ -3826,23 +4729,35 @@ mothur tool suite.
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
@@ -3850,15 +4765,14 @@ mothur tool suite.
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_mothur-miseq-sop-short">#metagenomics_mothur-miseq-sop-short</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_mothur-miseq-sop-short">#metagenomics_mothur-miseq-sop-short</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -3881,6 +4795,23 @@ mothur tool suite.
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_mothur-miseq-sop-short">#metagenomics_mothur-miseq-sop-short</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -3907,18 +4838,26 @@ mothur tool suite.
     
     
 		<div class="hall-of-fame-hero" id="shiltemann">
+			
 			<a href="/video-library/contributors/shiltemann/">
+			
             
 			<img src="https://avatars.githubusercontent.com/shiltemann" alt="">
             
 			<div class="name">
 				<b>Saskia Hiltemann</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://erasmusmc.nl">
 					Erasmus Medical Center
+				</a> & 
+				
+				<a href="https://gallantries.github.io">
+					The Gallantries Project
 				</a>
 				
 			</div>
@@ -4002,6 +4941,7 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
 
 
 
+
 <!-- determine the next archived version of tutorial -->
 
 
@@ -4029,7 +4969,8 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.</td>
+              <td><p>This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer.</p>
+</td>
           </tr>
           
           <tr>
@@ -4050,15 +4991,15 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           </tr>
           
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
           
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/wetlab_miseq">#wetlab_miseq</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/wetlab_miseq">#wetlab_miseq</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -4066,6 +5007,10 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           </tr>
           
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -4092,14 +5037,18 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
     
     
 		<div class="hall-of-fame-hero" id="miaomiaozhou88">
+			
 			<a href="/video-library/contributors/miaomiaozhou88/">
+			
             
 			<img src="https://avatars.githubusercontent.com/miaomiaozhou88" alt="">
             
 			<div class="name">
 				<b>Miaomiao Zhou</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://avans.nl">
@@ -4125,6 +5074,7 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           
           
           <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "metagenomics/clinical-applications", "metagenomics/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["hexylena"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"30M", "link"=>"icXMqMut6PY", "speakers"=>["aheikema"], "name"=>"metagenomics/clinical-applications"} -->
+
 
 
 
@@ -4157,7 +5107,8 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.</td>
+              <td><p>Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.</p>
+</td>
           </tr>
           
           <tr>
@@ -4178,15 +5129,15 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           </tr>
           
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
           
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_clinical-applications">#metagenomics_clinical-applications</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_clinical-applications">#metagenomics_clinical-applications</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -4194,6 +5145,10 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           </tr>
           
           
+          <!--
+          
+          
+          -->
       </table>
 
   </div>
@@ -4220,14 +5175,18 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
     
     
 		<div class="hall-of-fame-hero" id="aheikema">
+			
 			<a href="/video-library/contributors/aheikema/">
+			
             
             <img src="/video-library/assets/images/instructors/astrid.jpeg" alt="">
             
 			<div class="name">
 				<b>Astrid Heikema</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://erasmusmc.nl">
@@ -4253,6 +5212,7 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           
           
           <!-- session: {"title"=>"Microbiome Analysis using Nanopore Sequencing", "description"=>"In this 3-part module, you will learn about Nanopore long-read sequencing for the\ndetection of antimicrobial resistance (AMR). There is a short video showing you the\nwetlab steps involved in using the MinION sequencer. A talk about the clinical applications,\nand finally a practical tutorial walking you through an AMR analysis in Galaxy.\n", "videos"=>["wetlab/miseq/demo", "metagenomics/clinical-applications", "metagenomics/plasmid-metagenomics-nanopore/tutorial"]}<br><br> video: {"captions"=>["bebatut"], "date"=>"2021-02-15", "galaxy_version"=>"21.01", "length"=>"45M", "link"=>"ECIl8ZU1Wko", "speakers"=>["willemdek11"], "name"=>"Antibiotic resistance detection"} -->
+
 
 
 
@@ -4285,7 +5245,8 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           
           <tr>
               <td><strong>Description:</strong></td>
-              <td>This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.</td>
+              <td><p>This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.</p>
+</td>
           </tr>
           
           <tr>
@@ -4306,36 +5267,53 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
           </tr>
           
           
+          
           <tr>
               <td><strong>Materials:</strong></td>
               <td>
                 <ul class="plain-text-list">
-                
+                    
                     <li>
                         
                             <img style="height: 1em" src="/video-library/assets/fa/tutorial.svg" alt="assets/fa/tutorial.svg" aria-hidden="true"/>
+                            
                         
 
+                        
+                        
+				Tutorial:
 
-                        
-                        
-                        Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
+				<br>
+				<img style="height: 1em" src="/video-library/assets/fa/circle-question-regular.svg" alt="assets/fa/circle-question-regular.svg" aria-hidden="true"/>
+				
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/faqs/?utm_source=schedule&utm_medium=click&utm_campaign=video-library">FAQs</a>
+				
                         
                     </li>
                 
                     <li>
                         
 
+                        
+                        
+				Related Tutorial:
 
-                        
-                        
-                        Related Tutorial:
-                        <a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html">Archived Version</a>
-                        |
-                        <a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html">Latest Version</a>
+				<a href="https://training.galaxyproject.org/archive/2021-03-01/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Version in Video</a>
+				<!-- We allow overriding specific materials to their archival versions, hiding the "current" link. -->
+				
+				|
+				<a href="https://training.galaxyproject.org/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Latest Version</a>
+				
+
+				
                         
                     </li>
                 
@@ -4343,15 +5321,14 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
               </td>
           </tr>
           
-          <!-- this is for the embedded versions where they'll use their own support forum -->
-          
-          <tr>
+          <!-- this is for the embedded versions where they'll use their own1 support forum -->
+                    <tr>
               <td><strong>Support:</strong></td>
               <td>
               <ul>
                 
                 
-                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_plasmid-metagenomics-nanopore">#metagenomics_plasmid-metagenomics-nanopore</a> (<a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a>)</li>
+                <li>Slack: <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_plasmid-metagenomics-nanopore">#metagenomics_plasmid-metagenomics-nanopore</a> <ul><li><a href="https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-x7vinbs1-BA~Kht6N86JBhDq0uTIVdQ">Slack Invite</a></li></ul></li>
                 <li><a href="https://gitter.im/Galaxy-Training-Network/Lobby">Gitter</a></li>
                 <li><a href="https://help.galaxyproject.org">Galaxy Help Forum</a></li>
               </ul>
@@ -4376,6 +5353,23 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
               </td>
           </tr>
           
+          <!--
+          
+          
+          <tr>
+              <td><strong>Finished this tutorial as part of GTN Tapas?</strong></td>
+              <td>
+              <ol>
+                
+                
+                <li><a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html?utm_source=schedule&utm_medium=click&utm_campaign=video-library">Share your history</a> (if applicable)</li>
+                <li>Copy the URL</li>
+                <li>Run the command <code>/completed</code> with the URL to your shared history, in <a href="https://gtnsmrgsbord.slack.com/archives/metagenomics_plasmid-metagenomics-nanopore">#metagenomics_plasmid-metagenomics-nanopore</a></li>
+              </ol>
+              </td>
+          </tr>
+          
+          -->
       </table>
 
   </div>
@@ -4402,14 +5396,18 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
     
     
 		<div class="hall-of-fame-hero" id="willemdek11">
+			
 			<a href="/video-library/contributors/willemdek11/">
+			
             
 			<img src="https://avatars.githubusercontent.com/willemdek11" alt="">
             
 			<div class="name">
 				<b>Willem de Koning</b>
 			</div>
+			
 			</a>
+			
 			<div class="affil">
 				
 				<a href="https://erasmusmc.nl">
@@ -4451,6 +5449,7 @@ and finally a practical tutorial walking you through an AMR analysis in Galaxy.
      
   
   </div>
+
 
 
 
